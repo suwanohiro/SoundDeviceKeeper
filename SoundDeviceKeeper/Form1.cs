@@ -1,4 +1,4 @@
-using AudioSwitcher.AudioApi;
+﻿using AudioSwitcher.AudioApi;
 using AudioSwitcher.AudioApi.CoreAudio;
 using AudioSwitcher.AudioApi.Observables;
 using System.Diagnostics;
