@@ -41,6 +41,7 @@ namespace SoundDeviceKeeper
         public Form1()
         {
             InitializeComponent();
+            menuStrip1.Renderer = new CustomMenuRenderer();
 
             _isPowerOn = false;
 
@@ -144,5 +145,6 @@ namespace SoundDeviceKeeper
                 UseShellExecute = true
             });
         }
+
     }
 }
