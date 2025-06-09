@@ -19,7 +19,7 @@ namespace SoundDeviceKeeper
 
     struct ColorData
     {
-        public static ColorDataElement PowerON => new ColorDataElement("Power ON", Color.YellowGreen);
-        public static ColorDataElement PowerOFF => new ColorDataElement("Power OFF", Color.Red);
+        public static ColorDataElement PowerON => new ColorDataElement("ON", Color.YellowGreen);
+        public static ColorDataElement PowerOFF => new ColorDataElement("OFF", Color.Red);
     }
 }
