@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             Power = new Button();
             PowerUI = new Label();
             label1 = new Label();
@@ -205,10 +206,10 @@
             Controls.Add(PowerUI);
             Controls.Add(Power);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             MainMenuStrip = menuStrip1;
             MaximizeBox = false;
             Name = "Form1";
-            ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SoundDeviceKeeper";
             Load += FormEvent_Form1_Load;
